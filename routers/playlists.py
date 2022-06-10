@@ -17,3 +17,8 @@ router = APIRouter(prefix="/playlist",tags=['Playlist'])
 @router.post('/',status_code=201,response_model=playlistsOutput)
 async def create_playlist(play:playlistInput,db: Session = Depends(get_db),user = Depends(get_current_user)) :
     return create_playlists(db,play,user.id)
+
+@router.get('/',response_model=playlistsOutput)
+async def see_all_playlist(Session = Depends(get_db),user = Depends(get_current_user)) :
+    pass
+
