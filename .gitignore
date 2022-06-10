@@ -1,0 +1,5 @@
+env/
+secrets.json
+*.db
+__pycache__
+*/__pycache__
