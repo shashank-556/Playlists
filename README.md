@@ -8,10 +8,10 @@ Clone the repo
 
 ```bash
 # clone the repo
-$ git clone https://github.com/shashank-556/Playlists.git
+git clone https://github.com/shashank-556/Playlists.git
 
 # change the working directory to MessageBoard
-$ cd Playlists
+cd Playlists
 ```
 
 ### Virtual Environment
@@ -19,10 +19,10 @@ $ cd Playlists
 First create a virtual environment using venv
 
 ```bash
-$ python3.8 -m venv env
+python3.8 -m venv env
 
 # activate the virtual environment
-$ source env/bin/activate
+source env/bin/activate
 ```
 
 ### Setup
