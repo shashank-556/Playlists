@@ -37,6 +37,12 @@ You can create a secure random secret key in bash using the following command
 ```bash
 openssl rand -hex 32
 ```
+### Requirements
+
+Install all the requirements when the virtual environment is active
+```bash
+pip install -r requirements.txt
+```
 
 ## Documentation 
 Run the server on localhost using 
