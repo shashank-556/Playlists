@@ -27,7 +27,7 @@ $ source env/bin/activate
 
 ### Setup
 
-Create a json file with the name *secrets.json* to store the secret that will be used to sign JWT tokens. The *secrets.json* file 
+Create a json file with the name *secrets.json* to store the secret key that will be used to sign JWT tokens. The *secrets.json* file 
 
 ```json
 {"SECRET_KEY":""}
